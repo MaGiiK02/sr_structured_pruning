@@ -1,0 +1,65 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# PyInstaller
+#  Usually these files are written by a python script from a template
+#  before PyInstaller builds the exe, so as to inject date/other infos into it.
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+#project Specific
+*.png
+!./*_baby.png
+*.pt
+
+# IDEs
+*vscode/
+*empty/
+*idea/
+
+# Experiment Tracker
+/wandb
+/.neptune
+*/wandb/*
+slurm_scripts/new_dataset/train/wandb/
+slurm_scripts/new_dataset/train_sd_hd/
+slurm_scripts/new_dataset/train_hd_4k/
+
+#Experiment
+/test
+
+# SLURM out
+*.out
+*.err
+
+# Weigths
+./weigths
+!./weigths/readme.md
+
